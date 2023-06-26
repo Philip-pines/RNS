@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <title>Rise and Shine</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Ads -->
+    <div class="container ads">
+      <div class="row">
+        <div class="col-4 qcontact">
+          <p>📞 Quick contact:</p>
+          <p>+040 123 456</p>
+        </div>
+        <div class="col-4 logobox">
+          <a href="index.html"
+            ><img
+              src="brand-logo.png"
+              alt="Logo"
+              height="80"
+              class="d-inline-block align-text-top logo"
+          /></a>
+          <p class="saying">We'll clean your troubles away</p>
+        </div>
+        <div class="col-4 qbutton">
+          <a href="quotation.html"
+            ><button type="button" class="btn btn-warning">
+              Get a Quotation
+            </button></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- navigation -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse nbutton" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html" style="color: #fff"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pricing.html" style="color: #fff"
+                  >Pricing</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="register.html" style="color: #fff"
+                  >Register</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" style="color: #fff"
+                  >About</a
+                >
+              </li>
+            </ul>
+          </div>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+            />
+            <button class="btn btn-outline-warning" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- carousel -->
+      <div
+        id="carouselExampleInterval"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active carImg" data-bs-interval="10000">
+            <img
+              src="Cleaning images/house-cleaning-services.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item carImg" data-bs-interval="2000">
+            <img
+              src="Cleaning images/builder-cleaning.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item carImg">
+            <img
+              src="Cleaning images/deep-cleaning.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <!-- Cards -->
+          <div class="row cParent">
+            <div class="col-lg-4 col-md-12 showcaseCard">
+              <div class="card fcard">
+                <div class="card-body cardBody">
+                  <h5 class="card-title">On time and reliable</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Facere repellat consequuntur expedita similique accusamus
+                    quo facilis quis necessitatibus maiores. Sequi, cumque quia?
+                    Inventore ipsa accusantium nostrum neque alias, beatae
+                    laboriosam non enim est deserunt provident ratione
+                    voluptatem nihil temporibus perferendis facilis earum nulla
+                    quos quo omnis perspiciatis ex fugit debitis?
+                  </p>
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 showcaseCard">
+              <div class="card fcard">
+                <div class="card-body cardBody">
+                  <h5 class="card-title">Trusted cleaners</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Nostrum fugit ullam alias perferendis, vero impedit
+                    distinctio obcaecati sunt quas architecto. Lorem ipsum dolor
+                    sit amet consectetur adipisicing elit. Rerum voluptatem
+                    ipsum cumque aliquid velit beatae, excepturi ducimus
+                    eligendi nobis explicabo.
+                  </p>
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 showcaseCard">
+              <div class="card fcard">
+                <div class="card-body cardBody">
+                  <h5 class="card-title">Best quality</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Amet corporis repellendus assumenda placeat alias culpa
+                    sequi eos error, obcaecati cumque ut fugit blanditiis,
+                    asperiores excepturi!
+                  </p>
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Cards -->
+
+      <div class="row pCardParent2">
+        <div class="col-12">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Office cleaning</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Rerum nihil perferendis amet illum eligendi alias incidunt
+                    eos vero excepturi necessitatibus, placeat magnam corporis
+                    architecto quaerat laudantium commodi quis! Sapiente
+                    incidunt, esse adipisci odit obcaecati reiciendis dolore
+                    perferendis dignissimos ducimus repudiandae ipsum, dolorum
+                    ea harum voluptas vitae nesciunt. Quasi, asperiores quos!
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="Cleaning images/house-cleaning-services.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row pCardParent2">
+        <div class="col-12">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="Cleaning images/mold-cleaning.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Mould cleaning</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequuntur pariatur ipsum excepturi beatae eum facilis,
+                    amet provident nulla perspiciatis, quos quidem quasi
+                    similique fugit hic eveniet. Ducimus ad sed saepe, illum non
+                    ullam et! Facere accusamus amet nisi quia dolorem excepturi
+                    quos odit, placeat provident totam molestiae quod
+                    accusantium inventore qui iste minus ex corporis!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row pCardParent">
+        <div
+          class="container d-flex align-items-center justify-content-center position-relative flex-wrap"
+        >
+          <div class="card d-flex position-relative flex-column">
+            <div class="imgContainer">
+              <a href="pricing.html">
+                <img src="Cleaning images/steam-cleaning.jpg" />
+              </a>
+            </div>
+            <div class="content">
+              <h2>Steam cleaning</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse eget velit tristique, sollicitudin leo viverra,
+                suscipit neque. Aliquam ut facilisis urna, in pretium nibh.
+                Morbi in leo in eros commodo volutpat ac sed dolor.
+              </p>
+            </div>
+          </div>
+          <div class="card d-flex position-relative flex-column">
+            <div class="imgContainer">
+              <a href="pricing.html"
+                ><img src="Cleaning images/builder-cleaning.jpg"
+              /></a>
+            </div>
+            <div class="content">
+              <h2>Builder cleaning</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse eget velit tristique, sollicitudin leo viverra,
+                suscipit neque. Aliquam ut facilisis urna, in pretium nibh.
+                Morbi in leo in eros commodo volutpat ac sed dolor.
+              </p>
+            </div>
+          </div>
+          <div class="card d-flex position-relative flex-column">
+            <div class="imgContainer">
+              <a href="pricing.html"
+                ><img src="Cleaning images/office-cleaning.jpg"
+              /></a>
+            </div>
+            <div class="content">
+              <h2>Office cleaning</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse eget velit tristique, sollicitudin leo viverra,
+                suscipit neque. Aliquam ut facilisis urna, in pretium nibh.
+                Morbi in leo in eros commodo volutpat ac sed dolor.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <p class="col-md-4 mb-0 text-muted">
+          &copy; 2023 Rise and Shine Cleaning Team
+        </p>
+
+        <a
+          href="/"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
+        >
+          <img src="brand-logo.png" alt="logo" height="50px" />
+        </a>
+
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link px-2 text-muted">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="pricing.html" class="nav-link px-2 text-muted">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link px-2 text-muted">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="register.html" class="nav-link px-2 text-muted"
+              >Register</a
+            >
+          </li>
+        </ul>
+      </footer>
+    </div>
+
+    <!-- script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
